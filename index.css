@@ -1,0 +1,59 @@
+:root{
+    --W:75vmin;
+    --H:75vmin;
+}
+
+body{
+    margin:0;
+   
+} 
+
+body div{
+    float: left;
+   
+}
+.canvas{
+   
+    border:solid;
+    width:var(--W);
+    height:var(--H);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+       
+    
+} 
+
+
+.left{
+    height:75vmin;
+    width:75vmin;
+   
+    margin-top:20px;
+}
+.right{
+    padding-left: 12px;
+    height:75vmin;
+  
+}
+.frame{
+  height:37.5vmin;
+  width:calc(100vw - 75vmin - 16px);
+  background-color: rgba(215, 156, 156, 0.459);
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.title{
+    font-size: auto;
+}
+.end{
+    overflow-y: scroll;
+    position:relative;
+    height:calc(100vh - 75vmin - 70px - 60px);
+    width:98vw;
+    left:1vw;
+    border-radius: 10px;
+    background-color: rgba(215, 156, 156, 0.459);
+}
+

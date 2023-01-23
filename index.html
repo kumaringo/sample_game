@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="index.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div style="height:40px;">
+    <input type="button" value="拡大" onclick="big(this)" id="button">
+    <input type="button" value="スタート" onclick="start()" id="button">
+    </div>
+    <div id="body">
+        <div class="left" id="left" >
+            
+           
+            <canvas class="canvas" width = "1000" height = "1000" id="canvas"></canvas>
+        </div>
+
+            <div class="right" id="right">
+                <div>
+                    <p class="title" style="height:2.5vmin;">説明</p>
+                    <div class="frame" style="height:30vmin;">
+                        <p></p>
+                    </div>
+                </div>
+
+                <br>
+
+                <div>
+                    <p class="title" style="height:2.5vmin;">リンク</p>
+                    <div class="frame" style="height:30vmin;">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="position:relative;top:10px;" id="others">
+                <p>その他</p>
+                <div class="end">
+                    <p></p>
+                </div>
+            </div>
+            <div style="text-align:center;width:100vw; position:relative;top:80px;" id="others_2">
+                <a href="">ホームページに戻る</a>
+            </div>
+     
+</body>
+</html>
